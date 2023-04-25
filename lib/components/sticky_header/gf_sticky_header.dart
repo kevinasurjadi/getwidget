@@ -49,7 +49,7 @@ class GFStickyHeader extends MultiChildRenderObjectWidget {
     final scrollable = Scrollable.of(context);
     return RenderGFStickyHeader(
       direction: direction,
-      scrollable: scrollable,
+      scrollable: scrollable!,
       enableHeaderOverlap: enableHeaderOverlap,
       callback: callback,
       stickyContentPosition: stickyContentPosition,
